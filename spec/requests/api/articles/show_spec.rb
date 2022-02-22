@@ -1,5 +1,5 @@
 RSpec.describe 'GET /api/articles/:id', type: :request do
-  let!(:article) { create(:article, title: 'Article 1') }
+  let(:article) { create(:article, title: 'Article 1') }
   let!(:another_article) { create(:article, title: 'Article 2') }
 
   before do
