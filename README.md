@@ -1,24 +1,7 @@
-# README
+[![Test Coverage](https://api.codeclimate.com/v1/badges/7e4e893b4a596b77a585/test_coverage)](https://codeclimate.com/github/maxarvid/rails_demo_2022/test_coverage)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Rails Demo 2022
 
-Things you may want to cover:
+CA rails demo January 2022 cohort Rails demo with CD and CI
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Link to deployed app on heroku: https://rails-demo-2022.herokuapp.com/
