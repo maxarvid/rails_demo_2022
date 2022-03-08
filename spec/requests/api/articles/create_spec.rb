@@ -6,7 +6,11 @@ RSpec.describe 'POST /api/articles' do
     let(:credentials) { user.create_new_auth_token }
     before do
       post '/api/articles', params: {
-        article: { title: 'News about coding', body: 'Lorem ipsum...', image: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA0oAAAJHCAYAAACu' }
+        article: {
+          title: 'News about coding',
+          body: 'Lorem ipsum...',
+          image: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA0oAAAJHCAYAAACu'
+        }
       }, headers: credentials
 
       @article = Article.last
